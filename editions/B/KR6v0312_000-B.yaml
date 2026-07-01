@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6v0312/b/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 吉祥經
+  edition:
+    short: b
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B07/B07n0013.xml
+    old_id: B07n0013
+hash: sha256:c4c8459982de462c9d46bf4275f87a7a8beec83f5d4529375d5dacddb9aac507

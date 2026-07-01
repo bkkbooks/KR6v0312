@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR6v0312/v1
+canonical_location: https://kanripo.org/bkk/KR6v0312/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 吉祥經
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B07/B07n0013.xml
+    old_id: B07n0013
+  edition:
+    short: bkk
+editions:
+- {short: 補編, label: 補編, source_xml_id: wit.orig}
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0312_000.yaml, hash: 'sha256:c4c8459982de462c9d46bf4275f87a7a8beec83f5d4529375d5dacddb9aac507'}
+  - {seq: 1, filename: KR6v0312_001.yaml, hash: 'sha256:0bb6dee4359462da67ebca005b5491b806a62bb3546a66da8224b952477692d0'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0312_001.markers.yaml, hash: 'sha256:80e282fe4331c2928af59036c48bf5e0a491acb9b8e5b49d6cb4b77b8039457c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0312_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 319
+  label: 吉祥經出巴利三藏中之小部阿含
+  type: juan
+  level: 1
+hash: sha256:27a8d4fa263ee4d4a5b19c74943ba4c008acb8c2599298b4c1b79e8cb8e02ddc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

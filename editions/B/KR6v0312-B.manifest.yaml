@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6v0312/B/v1
+canonical_location: https://kanripo.org/bkk/KR6v0312/B/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 吉祥經
+  identifiers:
+    krp: KR6v0312
+    cbeta: B07n0013
+    cbeta_old_id: B07n0013
+    authorityid: CA0006097
+    json_key: B0013
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B07/B07n0013.xml
+    old_id: B07n0013
+  edition:
+    short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0312_000-B.yaml, hash: 'sha256:c4c8459982de462c9d46bf4275f87a7a8beec83f5d4529375d5dacddb9aac507'}
+  - {seq: 1, filename: KR6v0312_001-B.yaml, hash: 'sha256:b896d134d9b5488848d5a0648ca4c792448cafa2263a415508a8d7625d779455'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0312_000-B.markers.yaml, hash: 'sha256:6f510963b79c97871bc9fb9095242dd83d55082858c3667cc9effa73c8e78666'}
+  - {seq: 1, role: markers, filename: assets/KR6v0312_001-B.markers.yaml, hash: 'sha256:a5fc5102fb62007feeff4da720fc257d797af420f66f3b620f03fccad220b612'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0312_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 319
+  label: 吉祥經出巴利三藏中之小部阿含
+  type: juan
+  level: 1
+hash: sha256:010e7f70e7dab52bde2538eddc4e852ae038523b33496bbeb33e070141486100
