@@ -12,13 +12,16 @@ metadata:
   edition:
     short: bkk
 editions:
-- {short: 補編, label: 補編, source_xml_id: wit.orig}
+- short: 補編
+  label: 補編
+  source_xml_id: wit.orig
 assets:
   parts:
   - {seq: 0, filename: KR6v0312_000.yaml, hash: 'sha256:c4c8459982de462c9d46bf4275f87a7a8beec83f5d4529375d5dacddb9aac507'}
-  - {seq: 1, filename: KR6v0312_001.yaml, hash: 'sha256:0bb6dee4359462da67ebca005b5491b806a62bb3546a66da8224b952477692d0'}
+  - {seq: 1, filename: KR6v0312_001.yaml, hash: 'sha256:b896d134d9b5488848d5a0648ca4c792448cafa2263a415508a8d7625d779455'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6v0312_001.markers.yaml, hash: 'sha256:80e282fe4331c2928af59036c48bf5e0a491acb9b8e5b49d6cb4b77b8039457c'}
+  - {seq: 0, role: markers, filename: assets/KR6v0312_000.markers.yaml, hash: 'sha256:df44a7619a25eb34e0db475f916b8794096edfa986e1cd49dedb8b7c473c05eb'}
+  - {seq: 1, role: markers, filename: assets/KR6v0312_001.markers.yaml, hash: 'sha256:8b69b5aeb38560311c154f53cc3027a7fa5afd3ff596309b60f6d51d3737c4e3'}
 table_of_contents:
 - ref:
     seq: 1
@@ -30,7 +33,4 @@ table_of_contents:
   label: 吉祥經出巴利三藏中之小部阿含
   type: juan
   level: 1
-hash: sha256:27a8d4fa263ee4d4a5b19c74943ba4c008acb8c2599298b4c1b79e8cb8e02ddc
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:3449e63c28a836ae9c38dad0fb9e916a3f0cf147accab1212859c4cfba431414
