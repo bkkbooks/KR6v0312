@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0312/v1
 canonical_location: https://kanripo.org/bkk/KR6v0312/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 吉祥經
   source:
@@ -18,10 +18,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0312_000.yaml, hash: 'sha256:c4c8459982de462c9d46bf4275f87a7a8beec83f5d4529375d5dacddb9aac507'}
-  - {seq: 1, filename: KR6v0312_001.yaml, hash: 'sha256:b896d134d9b5488848d5a0648ca4c792448cafa2263a415508a8d7625d779455'}
+  - {seq: 1, filename: KR6v0312_001.yaml, hash: 'sha256:27e9649792c250eab74b445c08b302797bcbb358fee8d02fe1bb95f1f3483ef1'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6v0312_000.markers.yaml, hash: 'sha256:df44a7619a25eb34e0db475f916b8794096edfa986e1cd49dedb8b7c473c05eb'}
-  - {seq: 1, role: markers, filename: assets/KR6v0312_001.markers.yaml, hash: 'sha256:8b69b5aeb38560311c154f53cc3027a7fa5afd3ff596309b60f6d51d3737c4e3'}
+  - {seq: 1, role: markers, filename: assets/KR6v0312_001.markers.yaml, hash: 'sha256:bf5782af1bfb6e4e4967f971d50c380fde4eb373f8511106e19d99b642fb89d6'}
 table_of_contents:
 - ref:
     seq: 1
@@ -33,4 +33,7 @@ table_of_contents:
   label: 吉祥經出巴利三藏中之小部阿含
   type: juan
   level: 1
-hash: sha256:3449e63c28a836ae9c38dad0fb9e916a3f0cf147accab1212859c4cfba431414
+hash: sha256:a3daeb77e15de4332f0f8800876744cc878067446c78937b3f46c7572911ecd7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
